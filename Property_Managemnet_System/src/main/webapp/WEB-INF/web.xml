@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>admin.loginservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/log</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	
+		<servlet-name>property_insert</servlet-name>
+		<servlet-class>admin.property_insert</servlet-class>
+	
+	
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>property_insert</servlet-name>
+	<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+	
+		<servlet-name>Update_admin_serverlet</servlet-name>
+		<servlet-class>admin.Update_admin_serverlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>Update_admin_serverlet</servlet-name>
+	<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+			<servlet>
+	
+		<servlet-name>Delect_admin_servlet</servlet-name>
+		<servlet-class>admin.Delect_admin_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>Delect_admin_servlet</servlet-name>
+	<url-pattern>/remove</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+	
+		<servlet-name>approve</servlet-name>
+		<servlet-class>admin.approve_property_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>approve</servlet-name>
+	<url-pattern>/approve</url-pattern>
+	</servlet-mapping>
+	
+   
+	
+	
+	
+	<servlet>
+	
+		<servlet-name>admin_details_servlet</servlet-name>
+		<servlet-class>admin.admin_details_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>admin_details_servlet</servlet-name>
+	<url-pattern>/addetails</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+	
+		<servlet-name>Property_servlet</servlet-name>
+		<servlet-class>admin.Property_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>Property_servlet</servlet-name>
+	<url-pattern>/pendingproperty</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+			<servlet-name>advertistment_update</servlet-name>
+		<servlet-class>admin.update_advertistment_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>advertistment_update</servlet-name>
+	<url-pattern>/update_ad</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+				<servlet>
+	
+		<servlet-name>advertistment_delect</servlet-name>
+		<servlet-class>admin.advertistment_delect_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>advertistment_delect</servlet-name>
+	<url-pattern>/delect_ad</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>seller_login</servlet-name>
+		<servlet-class>seller.seller_login_servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>seller_login</servlet-name>
+		<url-pattern>/seller_log</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>seller.update_seller_servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/seller_update</url-pattern>
+	</servlet-mapping>
+	
+	
+		         
+	<servlet>
+		<servlet-name>delect</servlet-name>
+		<servlet-class>seller.delect_seller_servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delect</servlet-name>
+		<url-pattern>/seller_remove</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+	
+		<servlet-name>seller_details_servlet</servlet-name>
+		<servlet-class>seller.seller_details_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>seller_details_servlet</servlet-name>
+	<url-pattern>/seller_details</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+			<servlet>
+	
+		<servlet-name>seller_advertistment</servlet-name>
+		<servlet-class>seller.seller_advertistment_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>seller_advertistment</servlet-name>
+	<url-pattern>/advertistment</url-pattern>
+	</servlet-mapping>
+	
+	
+				<servlet>
+	
+		<servlet-name>seller_advertistment_update</servlet-name>
+		<servlet-class>seller.seller_update_advertistment_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>advertistment_update</servlet-name>
+	<url-pattern>/seller_update_ad</url-pattern>
+	</servlet-mapping>
+	
+	
+				<servlet>
+	
+		<servlet-name>seller_advertistment_delect</servlet-name>
+		<servlet-class>seller.seller_advertistment_delect_servlet</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+		
+	<servlet-name>seller_advertistment_delect</servlet-name>
+	<url-pattern>/seller_delect_ad</url-pattern>
+	
+	</servlet-mapping>
+	
+	
+	
+					<servlet>
+	
+		<servlet-name>insert_ad</servlet-name>
+		<servlet-class>seller.seller_property_insert</servlet-class>
+	
+	</servlet>
+	
+		<servlet-mapping>
+	<servlet-name>insert_ad</servlet-name>
+	<url-pattern>/seller_insert</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<servlet>
+          <servlet-name>uplogin</servlet-name>
+          <servlet-class>supervisor.SupLoginServlet</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>uplogin</servlet-name>
+          <url-pattern>/suplogin</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+          <servlet-name>upinsert</servlet-name>
+          <servlet-class>supervisor.SupInsertServlet</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>upinsert</servlet-name>
+          <url-pattern>/supinsert</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+          <servlet-name>upupdate</servlet-name>
+          <servlet-class>supervisor.SupUpdateServlet</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>upupdate</servlet-name>
+          <url-pattern>/supupdate</url-pattern>
+</servlet-mapping>
+
+
+
+
+<servlet>
+          <servlet-name>updelete</servlet-name>
+          <servlet-class>supervisor.SupDeleteServlet</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>updelete</servlet-name>
+          <url-pattern>/supdelete</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<servlet>
+          <servlet-name>upCusget</servlet-name>
+          <servlet-class>supervisor.SupCusGetData</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>upCusget</servlet-name>
+          <url-pattern>/SupCus</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+          <servlet-name>SupCusDelete</servlet-name>
+          <servlet-class>supervisor.SupCusDeletServlet</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>SupCusDelete</servlet-name>
+          <url-pattern>/SUPCUSDELETE</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<servlet>
+          <servlet-name>ogin</servlet-name>
+          <servlet-class>customer.LoginServlet</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>ogin</servlet-name>
+          <url-pattern>/CUSTOMERLOGIN</url-pattern>
+</servlet-mapping>
+   
+
+
+
+  
+   
+<servlet>
+          <servlet-name>ustomerinsert</servlet-name>
+          <servlet-class>customer.CustomerInsert</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>ustomerinsert</servlet-name>
+          <url-pattern>/INSERT</url-pattern>
+</servlet-mapping>    
+   
+   
+
+
+
+
+
+
+
+
+<servlet>
+          <servlet-name>pdatecustomer</servlet-name>
+          <servlet-class>customer.UpdateCustomerServlet</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>pdatecustomer</servlet-name>
+          <url-pattern>/UPDATE</url-pattern>
+</servlet-mapping>  
+
+
+
+
+
+
+
+
+
+
+<servlet>
+          <servlet-name>eletecustomer</servlet-name>
+          <servlet-class>customer.DeleteCustomerServlet</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>eletecustomer</servlet-name>
+          <url-pattern>/DELETE</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+
+
+<servlet>
+          <servlet-name>oginn</servlet-name>
+          <servlet-class>supervisor.SupLoginServlet</servlet-class>
+</servlet>
+   
+<servlet-mapping>
+          <servlet-name>oginn</servlet-name>
+          <url-pattern>/SUPLOGIN</url-pattern>
+</servlet-mapping>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+</web-app>

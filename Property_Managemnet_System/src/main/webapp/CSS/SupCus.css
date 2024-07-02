@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+/* CSS for table */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+td {
+  background-color: #fff;
+}
+
+/* CSS for headings */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+  color: #007bff; /* Blue heading color */
+}
+
+/* CSS for buttons */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

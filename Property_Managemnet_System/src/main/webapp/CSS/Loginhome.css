@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Adjust spacing between elements */
+  margin-top: 50px; /* Add space from the top */
+}
+
+.left-sentence, .right-sentence {
+  flex: 1;
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  background-color: #6AAFC2;
+  padding: 30px;
+  border-radius: 20px; /* Update border radius for smoother edges */
+  margin: 10px; /* Add margin for spacing between elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smoother hover effect */
+}
+
+/* Add hover effect */
+.left-sentence:hover, .right-sentence:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px); /* Move the element slightly upwards */
+}
+
+.description b {
+  font-size: 24px;
+  color: #333;
+  letter-spacing: 2px; /* Adjust letter spacing */
+}
+
+.description p {
+  font-size: 16px; /* Reduce font size for better readability */
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9; /* Change background color */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.Faddbutton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.Faddbutton:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* Add scale effect on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+}

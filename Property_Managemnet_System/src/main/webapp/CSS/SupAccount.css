@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+  color: #007bff; /* Updated heading color */
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-container p {
+  margin-bottom: 5px;
+}
+
+button, input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

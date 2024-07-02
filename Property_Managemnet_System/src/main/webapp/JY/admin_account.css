@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+/* admin_account.css */
+
+//* admin_account.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Container styles */
+.admin-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Header styles */
+h1 {
+    color: #333; /* Dark gray text */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Admin info styles */
+.admin-info {
+    padding: 20px; /* Add padding around admin info */
+    margin-bottom: 20px; /* Add space between admin info blocks */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.admin-info p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+}
+
+/* Table styles */
+.admin-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-info table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+/* Button styles */
+.admin-info input[type="button"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.admin-info input[type="button"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Delete button specific styles */
+.admin-info input[type="button"].delete-btn {
+    background-color: #dc3545; /* Red button background */
+}
+
+.admin-info input[type="button"].delete-btn:hover {
+    background-color: #bd2130; /* Darker red on hover */
+}

@@ -1,0 +1,34 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #55acee; /* Change color on hover */
+}
+
+.contact-info p,
+.developer-team p {
+  margin: 10px 0;
+}
+
+.developer-team p {
+  font-style: italic;
+}

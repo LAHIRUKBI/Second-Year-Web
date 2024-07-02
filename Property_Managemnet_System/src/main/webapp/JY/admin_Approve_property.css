@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 20px;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+}
+
+/* Heading styles */
+h2 {
+    color: #333; /* Dark gray text */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+/* Form styles */
+form {
+    text-align: center;
+}
+
+/* Button styles */
+input[type="submit"], button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Edit and delete button styles */
+.edit, .delete {
+    background-color: #dc3545; /* Red button background */
+}
+
+.edit:hover, .delete:hover {
+    background-color: #bd2130; /* Darker red on hover */
+}
+
+/* Hide default button styles */
+button[type="submit"] {
+    display: none;
+}

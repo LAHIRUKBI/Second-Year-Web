@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+/* CSS for Supervisor Delete Panel */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 28px;
+  color: #007bff; /* Blue heading color */
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+form input[type="text"], form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
